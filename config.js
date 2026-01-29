@@ -10,8 +10,8 @@ const CONFIG = {
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        bears: ['🧸', '🐻']                       // Cute bear emojis
+        hearts: [''],  // Heart emojis
+        bears: ['']                       // Cute bear emojis
     },
 
     // Questions and answers
@@ -46,8 +46,8 @@ const CONFIG = {
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "yayyyy!!!!!!!!",
-        message: "now cmere i want kissesssss",
-        emojis: "❤️💕"  // These will bounce around
+        message: "now cmere i want kissesssss <3",
+        emojis: ""  // These will bounce around
     },
 
     // Color scheme for the website
