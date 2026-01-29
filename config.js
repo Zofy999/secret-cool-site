@@ -1,15 +1,11 @@
-// ============================================
-// 💝 CUSTOMIZE YOUR VALENTINE'S WEBSITE HERE 💝
-// ============================================
+
 
 const CONFIG = {
-    // Your Valentine's name that will appear in the title
-    // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Livie",
 
-    // The title that appears in the browser tab
-    // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will you be my valentine?",
+    valentineName: "livie",
+
+
+    pageTitle: "hi livie",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
@@ -22,20 +18,20 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            text: "do you like me?",                                    // First interaction
+            yesBtn: "yeah!",                                             // Text for "Yes" button
+            noBtn: "NO!",                                               // Text for "No" button
+            secretAnswer: "I LOVE you!"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
+            text: "how much do you love me?",                          // For the love meter
+            startText: "this much :>",                                   // Text before the percentage
+            nextBtn: "next ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            text: "will you be my valentine on february 14th, 2026? 🌹", // The big question!
+            yesBtn: "yeah!",                                             // Text for "Yes" button
+            noBtn: "nuh uh"                                                 // Text for "No" button
         }
     },
 
@@ -57,11 +53,11 @@ const CONFIG = {
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#ffafbd",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#ffc3a0",        // Gradient end (should complement backgroundStart)
-        buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
-        buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
-        textColor: "#ff4757"             // Text color (make sure it's readable!)
+        backgroundStart: "#609CF6",      // Gradient start (try pastel colors for a soft look)
+        backgroundEnd: "#B7CAFF",        // Gradient end (should complement backgroundStart)
+        buttonBackground: "#BDD4F3",     // Button color (should stand out against the background)
+        buttonHover: "#E2EFFF",          // Button hover color (slightly lighter than buttonBackground)
+        textColor: "#2D75FF"             // Text color (make sure it's readable!)
     },
 
     // Animation settings
