@@ -75,8 +75,8 @@ const CONFIG = {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
         musicUrl: "https://soundcloud.com/lucas-gon-alves-41/avenged-sevenfold-a-little-piece-of-heaven-official-instrumental?in=suedson/sets/rock", // Music streaming URL
-        startText: "🎵 Play Music",        // Button text to start music
-        stopText: "🔇 Stop Music",         // Button text to stop music
+        startText: "",        // Button text to start music
+        stopText: "",         // Button text to stop music
         volume: 0.2                        // Volume level (0.0 to 1.0)
     }
 };
